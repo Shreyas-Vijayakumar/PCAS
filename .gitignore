@@ -1,0 +1,43 @@
+# Virtual environment
+.venv/
+
+# Large data files — never push these
+tartan_data/
+data/raw/
+data/corpus_audio/
+data/adsb_october/
+data/10-22-20_audio/
+
+# Large output files
+outputs/*.jsonl
+outputs/segments_*.jsonl
+outputs/corpus_*.jsonl
+outputs/synthetic_references_all_days.csv
+outputs/utterance_synthetic_pairs.csv
+outputs/pcas_pipeline_results*.csv
+outputs/pcas_ablation*.csv
+outputs/corrected_*.csv
+outputs/results_*.csv
+outputs/aligned_metrics*.csv
+outputs/gold_evaluation_metrics.csv
+outputs/model_comparison_summary.csv
+
+# Keep figures and summary CSVs (small, useful for reviewers)
+!outputs/fig_*.pdf
+!outputs/*.png
+!outputs/model_comparison_chart.png
+
+# Interim data
+data/interim/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Windows
+Thumbs.db
+desktop.ini
