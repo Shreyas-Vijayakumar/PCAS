@@ -14,7 +14,7 @@ General aviation operations at non-towered airports depend entirely on voluntary
 
 PCAS fuses real-time **ADS-B surveillance data**, **surface weather (METAR)**, and **airport geometry** with a domain-adapted **Automatic Speech Recognition (ASR)** model and **Large Language Model (LLM) post-correction** to verify and correct pilot radio callouts before broadcast.
 
-The system also introduces **ASER (Aviation Semantic Error Rate)**, a new annotation-free, entity-weighted evaluation metric that penalizes safety-critical transcription errors — particularly incorrect runway identification — more heavily than standard Word Error Rate.
+The system also introduces **ASER (Aviation Semantic Error Rate)**, a new annotation-free, entity-weighted evaluation metric that penalizes safety-critical transcription errors more heavily than standard Word Error Rate.
 
 ---
 
@@ -29,7 +29,7 @@ Evaluated on **1,952 traffic-pattern utterances** from the [TartanAviation](http
 | + LLM + ADS-B (PCAS) | **97.7%** | **0.447** |
 
 - **20.2% relative ASER reduction** over uncorrected ASR baseline
-- LLM correction **without** ADS-B grounding degrades accuracy — surveillance context is necessary, not optional
+- LLM correction **without** ADS-B grounding degrades accuracy. Surveillance context is necessary, not optional
 - Verification pass rate **64.8%** under accurate context vs **17.8%** under mismatched context (3.6× difference)
 
 ---
