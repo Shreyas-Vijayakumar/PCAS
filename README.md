@@ -177,16 +177,16 @@ Result figures are in the `outputs/` directory:
 
 If you use this code or the ASER metric in your research, please cite:
 
-## ```bibtex
-## @inproceedings{vijayakumar2026pcas,
-##  author    = {Bangalore Vijayakumar, Shreyas and Somani, Arun K.},
-##  title     = {A Novel Pilot Communication Assistant System ({PCAS})
+<!-- ```bibtex
+ @inproceedings{vijayakumar2026pcas,
+  author    = {Bangalore Vijayakumar, Shreyas and Somani, Arun K.},
+  title     = {A Novel Pilot Communication Assistant System ({PCAS})
                for Non-Towered Airports},
-##  booktitle = {2026 IEEE Spoken Language Technology Workshop (SLT)},
-##  year      = {2026},
-##  note      = {Under review}
-## }
-## ```
+  booktitle = {2026 IEEE Spoken Language Technology Workshop (SLT)},
+  year      = {2026},
+  note      = {Under review}
+ }
+ ```-->
 
 ---
 
