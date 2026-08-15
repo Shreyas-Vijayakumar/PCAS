@@ -1,7 +1,6 @@
 # PCAS: Pilot Communication Assistant System
 
 > **A Novel Pilot Communication Assistant System (PCAS) for Non-Towered Airports**
-> Submitted to IEEE Spoken Language Technology Workshop (SLT 2026)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/downloads/)
